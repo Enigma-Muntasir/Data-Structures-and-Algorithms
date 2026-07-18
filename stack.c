@@ -1,11 +1,11 @@
 
 #include <stdio.h>
-#define size 5   // Maximum size of stack
+#define size 5  
 
 int stack[size];
 int top = -1;
 
-// Function to push an element
+
 void push(int value) {
     if (top == size - 1) {
         printf("Stack Overflow! Cannot push %d\n", value);
@@ -16,7 +16,7 @@ void push(int value) {
     }
 }
 
-// Function to pop an element
+
 void pop() {
     if (top == -1) {
         printf("Stack Underflow! Nothing to pop\n");
@@ -36,7 +36,7 @@ void peek() {
     }
 }
 
-// Function to display stack
+
 void display() {
     if (top == -1) {
         printf("Stack is empty\n");
