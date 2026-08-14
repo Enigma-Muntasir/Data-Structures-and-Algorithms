@@ -6,6 +6,7 @@ struct Node {
     int data;
     struct Node *left;
     struct Node *right;
+
 };
 
 
@@ -20,7 +21,7 @@ struct Node* createNode(int value) {
 }
 
 int main() {
-    // Create the root node
+
     struct Node *root = createNode(1);
 
     
