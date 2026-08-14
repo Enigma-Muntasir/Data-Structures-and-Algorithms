@@ -9,6 +9,7 @@ int ls(int *a, int n, int key)
 {
         i++;
     }
+    
     if(a[i]==key)
     {
         f=i;
